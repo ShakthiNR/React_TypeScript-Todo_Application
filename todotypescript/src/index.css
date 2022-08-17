@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities{
+  .input-form{
+    @apply border border-black my-2  px-3 py-1 w-full
+  }
+
+  .input{
+    @apply w-[100vw] flex justify-center py-10 
+  }
+  .btn-submit{
+    @apply w-full border border-blue-500 text-gray-700 py-[2px]
+  }
+  .formDiv{
+    @apply  w-[70%] md:w-[30%]
+  }
+  .delBtn{
+    @apply border border-red-500 ml-3 text-red-600 p-1 cursor-pointer
+  }
+  .upBtn{
+    @apply border border-emerald-500 ml-3 text-emerald-600 p-1 cursor-pointer
+  }
+  .todoCenter{
+    @apply flex flex-col justify-center items-center
+  }
+
+}
